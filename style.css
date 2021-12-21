@@ -1,0 +1,203 @@
+.food-item img {
+    width: 95%;
+    height: 187px;
+}
+.food-item {
+    background-color: #f0f0f0;
+    padding-left: 12px;
+    /* padding: 5px; */
+    border-radius: 10px;
+}
+.food-item:hover{
+    color: blue;
+}
+.head {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(126 75 62 / 92%),rgb(90 31 20 / 57%)),url(images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: stretch;
+    
+}
+ul{
+    flex: 1;
+    text-align: right;
+}
+ ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+ ul li a:hover{
+    border-bottom: 1px solid white;
+}
+ul li a {
+    color: ghostwhite;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px;
+    font-size: 23px;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+    width: 187px;
+    height: 190px;
+    /* border: 10px solid; */
+}
+.text-box {
+    color: ghostwhite;
+    top: 100%;
+    left: 50%;
+    text-align: center;
+    margin-top: 170px;
+}
+.text-box a:hover{
+    background-color: rgba(180, 63, 8, 0.788);
+    text-decoration: none;
+    color: white;
+}
+.text-box p{
+    font-size: 25px;
+    font-family: 'Style Script', cursive; 
+}
+.h1, h1 {
+    font-size: 2.5rem;
+    padding: 10px;
+}
+dl, ol, ul {
+    margin-top: -15px;
+    margin-bottom: 1rem;
+}
+h1{
+
+    color: ghostwhite;
+    font-size: 40px;
+    font-family: 'Style Script', cursive;
+}
+
+.button {
+    display: inline-block;
+    color: ghostwhite;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Style Script', cursive;
+}
+.menu-itame img {
+    width: 32%;
+    height: 200px;
+    padding: 6px;
+    float: left;
+    border-radius: 30px;
+}
+.menu h1{
+    color: black;
+    text-align: center;
+}
+.cife img {
+    height: 269px;
+    width: 264px;
+    /* display: contents; */
+    margin-left: 525px;
+    border-radius: 68%;
+}
+.cife h2 {
+    margin-left: 585px;
+}
+.cife b {
+    margin-left: 587px;
+}
+
+
+.footer{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.foo {
+    background-color: black;
+    padding-bottom: -10px;
+    margin-left: 315px;
+    display: contents;
+}
+.foo li{
+    list-style: none;
+}
+.foo li a img{
+    float: left;
+    display: inline;
+    width: 50px;
+    padding: 10px;
+
+}
+.foo li a img:hover{
+    margin-bottom: none;
+}
+div .all {
+    border: 1px solid;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 5px;
+    /* text-align: center; */
+    margin-left: 437px;
+    /* margin: 10px; */
+    text-decoration: none;
+    /* margin-top: 7px; */
+}
+.all:hover{
+    background-color: rgba(197, 98, 5, 0.952);
+    color: white;
+    
+}
+#contact {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/map-image.png);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+    padding-top: 10px;
+    color: #fff;
+}
+textarea.form-control {
+    height: 144px;
+}
+#contact {
+    min-height: 63vh;
+    width: 100%;
+    background-image: url(images/map-image.png);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+    padding-top: 10px;
+    color: #fff;
+}
+.hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(241 242 242);
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+
+
